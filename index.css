@@ -515,6 +515,12 @@ margin: 1rem 0 1rem 0;
 .sec2d3 img {
     width: 90vw;
 }
+.sec1d1 h2{
+    padding-left: 0;
+}
+.sec1d1 div {
+    padding: 1.5rem 0 1rem 0;
+}
 }
 
 
