@@ -5,8 +5,9 @@ menu.addEventListener('click',(()=>{
     let drop=document.getElementsByClassName('dropdown');
     let x = window.matchMedia("(min-width: 769px)")
     if( drop[0].style.display !="none" ){
-        
         drop[0].style.display ="none";
+        icon.className ="fa-solid fa-bars"
+        
     }else if( x.matches  ){
         drop[0].style.display ="none";
         icon.className ="fa-solid fa-bars"
