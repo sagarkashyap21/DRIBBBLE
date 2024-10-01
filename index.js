@@ -17,7 +17,6 @@ menu.addEventListener('click',(()=>{
     if(icon.className !="fa-solid fa-bars"){
         icon.className ="fa-solid fa-bars"
         document.body.style.overflowY="scroll";
-
     }else{icon.className="fa-solid fa-xmark"}
 
 }))
