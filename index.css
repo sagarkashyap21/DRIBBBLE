@@ -73,6 +73,9 @@ nav a{
     background-color: rgb(236, 234, 234);
     transition: border cubic-bezier(0, 0, 1, 1) 1s;
 }
+#magnifying{
+    color: gray;
+}
 #search:hover{
     background-color: white;
     border: 4px solid rgb(252 231 239);
@@ -356,6 +359,12 @@ input{
 }
 #p3{
     padding-right: 31rem;
+}
+#search{
+    background-color: white;
+}
+#magnifying{
+    color: black;
 }
 }
 @media only screen and (max-width: 890px){
