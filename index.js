@@ -7,23 +7,36 @@ menu.addEventListener('click',(()=>{
     if( drop[0].style.display !="none" ){
         drop[0].style.display ="none";
         icon.className ="fa-solid fa-bars"
+        document.body.style.overflowY="scroll";
         
     }else if( x.matches  ){
         drop[0].style.display ="none";
-        icon.className ="fa-solid fa-bars"
-        
+        // icon.className ="fa-solid fa-bars"
     }
     else{
         drop[0].style.display="block";
-        document.body.style.overflowY="hidden";
-    }
-    if(icon.className !="fa-solid fa-xmark"){
         icon.className ="fa-solid fa-xmark"
         document.body.style.overflowY="hidden";
-    }else if(icon.className="fa-solid fa-bars"){
-        document.body.style.overflowY="scroll";
+    }
+    if(x.matches){
+        icon.className ="fa-solid fa-bars"
 
     }
+    // if(icon.className ="fa-solid fa-bars"){
+    //     document.body.style.overflowY="scroll";
+
+    // }
+    // if(icon.className ="fa-solid fa-bars"){
+    //     icon.className ="fa-solid fa-xmark"
+    //     document.body.style.overflowY="hidden";
+    // }else if(icon.className !="fa-solid fa-bars"){
+    //     icon.className ="fa-solid fa-bars"
+    //     document.body.style.overflowY="scroll";
+    // }
+    // else{
+    //     icon.className ="fa-solid fa-bars"
+
+    // }
    
 
 }))
