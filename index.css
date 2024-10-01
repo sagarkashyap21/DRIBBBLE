@@ -55,6 +55,10 @@ nav a{
     display: flex;
     align-items: center;
 }
+.nav2{
+    display: flex;
+    align-items: center;
+}
 #signup{
     color: white;
     border: 2px solid black;
@@ -340,16 +344,25 @@ footer ul li{
 
 
 @media only screen and (max-width: 1024px){
+    body{
+        /* background-color: red; */
+    }
+    
 html{
     font-size: 75%;
 }
 input{
     display: none;
 }
-
+#search{
+    background-color:rgb(236, 234, 234);
+}
 .sec2d3 img {
     width: 13rem;
     height: 10rem;
+}
+#login{
+    display: none;
 }
 #p3{
     padding-right: 31rem;
