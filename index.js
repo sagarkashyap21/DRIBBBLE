@@ -3,7 +3,7 @@ menu.addEventListener('click',(()=>{
     let icon=document.querySelector('#menu i');
     
     let drop=document.getElementsByClassName('dropdown');
-    let x = window.matchMedia("(mix-width: 769px)")
+    let x = window.matchMedia("(min-width: 769px)")
     if( drop[0].style.display !="none" ){
         
         drop[0].style.display ="none";
