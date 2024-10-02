@@ -17,7 +17,7 @@
             <div class="nav1">
                 <ul class="nav1ul" style="padding-bottom: 1rem;">
                     <ul class="nav1ul1">
-                        <li id="menu"><i  class="fa-solid fa-bars"></i></li>
+                        <li id="menu"><i class="fa-solid fa-bars"></i></li>
                         <li><a href="#"> <img id="logo" src="logo.png" alt=""></a></li>
                     </ul>
                     <ul class="nav1ul2">
@@ -42,12 +42,12 @@
             </div>
             <div class="nav2">
                 <ul></ul>
-                    <li id="search"><a href="">
-                            <i id="magnifying"  class="fa fa-sharp fa-light fa-magnifying-glass"></i>
-                            <input style="padding-left: .5rem;" type="search" value="" placeholder="Search..."> </a>
-                    </li>
-                    <li id="login"><a href="#">Log in</a> </li>
-                    <li id="signup"><a style="color: white;" href="#">Sign up</a> </li>
+                <li id="search"><a href="">
+                        <i id="magnifying" class="fa fa-sharp fa-light fa-magnifying-glass"></i>
+                        <input style="padding-left: .5rem;" type="search" value="" placeholder="Search..."> </a>
+                </li>
+                <li id="login"><a href="#">Log in</a> </li>
+                <li id="signup"><a style="color: white;" href="#">Sign up</a> </li>
                 </ul>
             </div>
         </nav>
@@ -122,7 +122,11 @@
                     <li id="get"><a style="color: white;" href="">Get in touch</a></li>
                 </div>
             </div>
-            <video id="video" src="video.mp4" controls autoplay></video>
+            <div
+                style="display: flex;flex-direction: column;align-items: flex-start;background-color: white;height: fit-content;border-radius: .5rem;">
+                <video id="video" src="video.mp4" autoplay loop muted></video>
+                <hr id="progressBar"></hr>
+            </div>
             <p class="p" style="padding-top: 4rem;">I couldn’t resist bringing the desktop view of the Authentication
                 screen
                 to life
